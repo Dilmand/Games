@@ -1,9 +1,6 @@
-from itertools import count
 import numpy as np
 import pygame
 import sys
-
-
 
 pygame.init()
 
@@ -264,12 +261,7 @@ class Window():
             self.screen.blit(self.n,(800,340))
             self.clock.tick(60)
             pygame.display.update()
-     
-
-
-
-
-
+   
 
 if __name__ == "__main__":
     Window(True)
